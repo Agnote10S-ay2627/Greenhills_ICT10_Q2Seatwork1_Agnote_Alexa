@@ -1,0 +1,126 @@
+body {
+    background-color: #eef3f0;
+    font-family: "Gill Sans", sans-serif;
+    color: #263a35;
+    margin: 0;
+}
+
+body > h1 {
+    background-color: #234f46;
+    color: #f8f6ef;
+    text-align: center;
+    font-size: 42px;
+    font-weight: bold;
+    padding: 35px 20px 15px;
+    margin: 0;
+    letter-spacing: 1px;
+}
+
+body > p {
+    background-color: #234f46;
+    color: #dce5df;
+    text-align: center;
+    font-size: 16px;
+    padding: 0 20px 35px;
+    margin: 0;
+}
+
+.container {
+    max-width: 650px;
+    margin: 45px auto 80px;
+    padding: 35px;
+    background-color: white;
+    border: none;
+    border-radius: 14px;
+    box-shadow: 0 6px 18px rgba(35, 79, 70, 0.15);
+}
+
+.container p {
+    color: #8a7650;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-bottom: 8px;
+}
+
+.container h1 {
+    color: #234f46;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+#select_country {
+    width: 100%;
+    padding: 12px;
+    background-color: #f7f9f7;
+    color: #263a35;
+    border: 1px solid #b7c9c1;
+    border-radius: 8px;
+    font-family: "Gill Sans", sans-serif;
+    font-size: 16px;
+    outline: none;
+}
+
+#select_country:focus {
+    border-color: #3d7568;
+    box-shadow: 0 0 0 3px rgba(61, 117, 104, 0.12);
+}
+
+input[type="button"] {
+    width: 100%;
+    padding: 12px;
+    background-color: #d49a45;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-family: "Gill Sans", sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+input[type="button"]:hover {
+    background-color: #b98236;
+}
+
+#display1 {
+    margin-top: 25px;
+    padding: 18px;
+    background-color: #eef3f0;
+    border-radius: 8px;
+    color: #234f46;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+    min-height: 30px;
+}
+
+footer {
+    background-color: #234f46;
+    color: #dce5df;
+    font-size: 12px;
+    letter-spacing: 0.5px;
+    border-top: 3px solid #d49a45;
+}
+
+@media (max-width: 600px) {
+    body > h1 {
+        font-size: 32px;
+    }
+
+    body > p {
+        font-size: 14px;
+    }
+
+    .container {
+        margin: 30px 15px 80px;
+        padding: 25px;
+    }
+
+    .container h1 {
+        font-size: 24px;
+    }
+}
